@@ -1,6 +1,7 @@
 import './App.css';
 import BannerMain from "./banner/bannerMain";
 import MenuMain from "./menu/menuMain";
+import Main from "./main/main"
 import React from "react";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <MenuMain />
         </div>
         <div className="App-main">
-          这里是大致的框架!
+          <Main />
         </div>
       </div>
   );
