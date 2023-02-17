@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './menuMain.css'
-import { AppstoreOutlined, CoffeeOutlined, SettingOutlined, NotificationOutlined, WhatsAppOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
+import items from "../common/comData";
 
 
 const MenuMain: React.FC = () => {
